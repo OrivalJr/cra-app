@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-craapp-dev-d7c75-authRole",
+      "UnauthRoleArn": "arn:aws:iam::944472297482:role/amplify-craapp-dev-d7c75-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::944472297482:role/amplify-craapp-dev-d7c75-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-craapp-dev-d7c75-deployment",
+      "UnauthRoleName": "amplify-craapp-dev-d7c75-unauthRole",
+      "StackName": "amplify-craapp-dev-d7c75",
+      "StackId": "arn:aws:cloudformation:us-east-2:944472297482:stack/amplify-craapp-dev-d7c75/116e77a0-ba35-11ef-9571-0645140a7347",
+      "AmplifyAppId": "d3sjeinkgkt4ci"
+    }
+  }
+}
