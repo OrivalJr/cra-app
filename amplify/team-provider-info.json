@@ -10,6 +10,11 @@
       "StackName": "amplify-craapp-dev-d7c75",
       "StackId": "arn:aws:cloudformation:us-east-2:944472297482:stack/amplify-craapp-dev-d7c75/116e77a0-ba35-11ef-9571-0645140a7347",
       "AmplifyAppId": "d3sjeinkgkt4ci"
+    },
+    "categories": {
+      "api": {
+        "craapp": {}
+      }
     }
   }
 }

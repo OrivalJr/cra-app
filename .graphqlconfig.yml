@@ -1,0 +1,12 @@
+projects:
+  craapp:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - graphqlcra
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: .
