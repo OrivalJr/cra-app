@@ -1,7 +1,7 @@
 import './App.css';
-import Sobre from './Components/Sobre';
-import Alunos from './Components/Alunos';
-import Home from './Components/Home';
+
+import  { BrowserRouter, Link } from 'react-router-dom';
+
 
 
 function App() {
@@ -9,10 +9,13 @@ function App() {
     <div className="App">
       
        <h1>Novo título</h1>
-       <p><Sobre/></p>
-       <p><Home/></p>
-       <p><Alunos/></p>
-      
+       <BrowserRouter>
+       <ul>
+        <li> <Link to="/Home">Página inicial</Link></li>
+        <li> <Link to="/Alunos">Cadastro de alunos</Link></li>
+        <li> <Link to="/Sobre">Sobre</Link></li>
+       </ul>
+       </BrowserRouter>
     </div>
   )
 }

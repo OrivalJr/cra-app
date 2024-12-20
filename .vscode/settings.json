@@ -1,8 +1,10 @@
 {
     "cSpell.words": [
         "Alunos",
+        "Cadastro",
         "datetime",
         "Esta",
+        "inicial",
         "oidc",
         "OIDC",
         "página",
@@ -13,5 +15,13 @@
         "título",
         "TTFB",
         "webvitals"
-    ]
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:cra-app}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
 }
