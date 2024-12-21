@@ -5,6 +5,7 @@ import Sobre from './Components/Sobre.js';
 import { Nav } from 'react-bootstrap';
 import  { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function App() {
   return (
@@ -17,7 +18,16 @@ function App() {
         <Nav.Link as={Link} to="/">Página inicial</Nav.Link>
         <Nav.Link as={Link} to="/alunos">Cadastro de alunos</Nav.Link>
         <Nav.Link as={Link} to="/sobre">Sobre</Nav.Link>
+        <NavDropdown title="Dropdown" id="nav-dropdown">
+        <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.3">Something else here</NavDropdown.Item>
+        
+      </NavDropdown>
        </Nav>
+
+
+
        
        <Routes>
         <Route path="/" index element={<Home/>}></Route>
