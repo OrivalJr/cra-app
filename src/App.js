@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       
-       <h1>Novo título</h1>
+       <h1>Minha aplicação REACT</h1>
        <BrowserRouter>
 
        <Nav variant='tabs'>

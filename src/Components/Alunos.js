@@ -7,15 +7,24 @@ class Alunos extends React.Component {
     constructor(props){
         super(props);
         this.state={
-            Alunos: [
-                {'id':1, 'nome':'Luiz Fernando Silva', 'email': 'luiz@teste.com'},
-                {'id':2, 'nome':'João Felipe', 'email': 'joao@teste.com'},
-                
-            ]
+            Alunos: []
 
         }
 
     }
+    componentDidMount(){
+        fetch("http://localhost:3001/Alunos/")
+        .then(resposta => resposta.json())
+        .then(dados => {
+            this.setState({ Alunos : dados})
+        })
+    }
+
+    componentWillUnmount(){
+        
+    }
+
+
     render(){
     return(
         <Table striped bordered hover>
