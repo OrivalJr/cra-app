@@ -1,1 +1,6 @@
 # Custom Dictionary Words
+Aluno
+buscar
+Digite
+melhor
+Salvar
